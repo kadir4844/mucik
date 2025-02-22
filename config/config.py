@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "25177078"))
+API_HASH = getenv("API_HASH" "c620358f6e1a2997770016103c852789"))
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN" "6629824609:AAEgda8Y2juluStOrDho_CiNeYXyGvRcjbQ"))
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kadir:<db_password>@cluster0.72mo5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002114692386"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME" "tutkumucikbot"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5803307239").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -61,7 +61,7 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", ""))
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAHABSIAn2znmK6n2G8jfDIsX1HkOF3WoN4sTw4GkR1EYNLpJ_m-bMiogeBLfG4t2kAdDN3K_ob5OdysF7HTl1NXqQMOTuXFdu_-kR5zgSi29lupqDHAmMPBfgtumX4zs3B0QZo9NUZC8QPGqHALuCEbriInDnOGdAAQdCrfQNlSJkwEj7YjvOcMFdiFN2nYT3iTslk-8PcihWuND8eSbD3xrEclqz_XEEmE0qP5mSaJqb5AztgwBulhvsa0uCVdNleUCPb2QSxuUtamBQ5jR_NMmhpNaHLL388vYulrcJT6a1PyhFJNE0cZeLaYMUYooaWKkrqNPCZZGJi89plhpbYRcsapXAAAAAHDSGj5AA"))
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
